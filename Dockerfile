@@ -1,4 +1,4 @@
-FROM wordpress:4.5.0-apache
+FROM weyforth/wordpress:4.5.0-apache
 
 RUN apt-get update && apt-get install -y \
     git \
