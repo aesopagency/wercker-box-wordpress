@@ -4,7 +4,8 @@ RUN apt-get update && apt-get install -y \
     git \
     zip \
     unzip \
-    xz-utils
+    xz-utils \
+    mysql-client
 
 # from https://github.com/nodejs/docker-node/blob/baad247b9df8087d4c13a3a9bfb3c65833f424bb/5.10/wheezy/Dockerfile
 
