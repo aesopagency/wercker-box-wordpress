@@ -1,4 +1,4 @@
-FROM weyforth/wordpress:4.5.1-apache
+FROM aesopagency/wordpress:4.6.1-apache
 
 RUN apt-get update && apt-get install -y \
     git \
