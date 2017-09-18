@@ -1,4 +1,4 @@
-FROM aesopagency/wordpress:4.6.1-apache
+FROM aesopagency/wordpress:4.8.1-apache
 
 RUN apt-get update && apt-get install -y \
     git \
